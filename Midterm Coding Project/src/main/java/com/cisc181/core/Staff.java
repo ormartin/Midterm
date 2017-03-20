@@ -5,13 +5,13 @@ import java.util.Date;
 import com.cisc181.eNums.eTitle;
 
 public class Staff extends Employee {
-
+	//Uses eTitle
 	 private eTitle Title;
 
 	   public Staff(eTitle title){
 	        this.Title = title;
 	    }
-
+	   
 	    public void setTitle(eTitle title){
 	        this.Title = title;
 	    }
